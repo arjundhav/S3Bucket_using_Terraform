@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform-bucket" {
-    bucket = "our-terraform-tfstate-file-bucket"
+    bucket = "arjun-bucket-v1"
     tags = {
         Name = "first-bucket"
         Env = "Dev"
